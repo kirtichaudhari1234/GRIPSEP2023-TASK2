@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Spice&display=swap');
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+.bg-light{
+    background-color: #ffffff;
+}
+
+.navbar-brand{
+    font-family: serif;
+    font-size: 2.5rem;
+    color: #e91212!important;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color:#69b6e5;
+    box-shadow: 2px 2px 10px rgba(159, 27, 27, 0.464);
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #ffffff;
+    color: #120404;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 90%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 130%;
+    background-color: #ffffff;
+    color: #060f14!important;
+    transition: 0.3s;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #69b6e5;
+    box-shadow: 2px 2px 10px rgba(11, 145, 229, 0.615);
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+/* footerSection */
+
+#footer {
+    background-color: #017ab6!important;;
+    color: #fff;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+/* Customer-service */
+
+
+/*feature-box section*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #4B0082;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #4B0082;
+}
